@@ -24,7 +24,6 @@
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.149.0",
-    "typescript": "^5.5.4",
     "vite": "^5.3.4"
   },
   "devDependencies": {
