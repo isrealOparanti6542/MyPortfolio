@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
@@ -41,7 +42,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("MESSAGE SENT, We will get back to you as soon as possible, Thank you.");
 
           setForm({
             name: "",
@@ -53,7 +54,7 @@ const Contact = () => {
           setLoading(false);
 
           console.log(error);
-          alert("Something went wrong.");
+          alert("Something went wrong, Please check your internet connection.");
         }
       );
   };

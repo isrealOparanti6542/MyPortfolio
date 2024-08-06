@@ -1,3 +1,4 @@
+import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -16,11 +17,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Isreal</span>
+            Hi, I'm <span className="text-[#915EFF]">Isreal Oparanti</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop front-end / full-Stack, user <br className="sm:block hidden" />
-            interfaces and web applications
+          <p className={`${styles.heroSubText} mt-2 text-white-100 text-xs`}>
+          I specialize in developing full-stack web applications,
+           crafting intuitive user interfaces, and delivering seamless digital experiences.
           </p>
         </div>
       </div>
